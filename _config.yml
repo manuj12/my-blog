@@ -37,6 +37,7 @@ environment: production
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-include-cache
+  - jekyll-remote-theme
 minimal_mistakes_skin: "contrast"
 
 logo: "/files/images/masthead.png"
@@ -61,6 +62,11 @@ github: [metadata]
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "mksblogs"
 
 defaults:
   # _posts
