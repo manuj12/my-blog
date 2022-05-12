@@ -28,10 +28,11 @@ twitter_username: manuj_kushwaha
 github_username:  manuj12
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+#theme: minima
 
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-include-cache
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
