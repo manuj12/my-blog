@@ -18,14 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Tracing the ratsnest
+title: "Tracing the ratsnest"
+name: "Manuj Kushwaha"
 email: mk@manujkushwaha.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my blog
+  Personal blog of Manuj Kushwaha
 baseurl: "/my-blog" # the subpath of your site, e.g. /blog
 url: "https://manuj12.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: manuj_kushwaha
-github_username:  manuj12
+#twitter_username: manuj_kushwaha
+#github_username:  manuj12
+repository: "manuj12/my-blog"
 
 # Build settings
 #theme: minima
@@ -33,6 +35,11 @@ github_username:  manuj12
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-include-cache
+minimal_mistakes_skin: "contrast"
+
+logo: "/files/images/masthead.png"
+# To remove github auth error
+github: [metadata]
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
