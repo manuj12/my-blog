@@ -29,6 +29,8 @@ url: "https://manuj12.github.io" # the base hostname & protocol for your site, e
 #github_username:  manuj12
 repository: "manuj12/my-blog"
 
+# for getting comments locally
+environment: production
 # Build settings
 #theme: minima
 
@@ -59,3 +61,13 @@ github: [metadata]
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true
+      comments: true
