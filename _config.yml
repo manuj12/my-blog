@@ -17,12 +17,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
 title: "Tracing the ratsnest"
 name: "Manuj Kushwaha"
 email: mk@manujkushwaha.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog of Manuj Kushwaha
+
 baseurl: "/my-blog" # the subpath of your site, e.g. /blog
 url: "https://manuj12.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: manuj_kushwaha
@@ -38,6 +38,8 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-feed
 minimal_mistakes_skin: "contrast"
 
 logo: "/files/images/masthead.png"
@@ -62,6 +64,7 @@ github: [metadata]
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+search: true
 
 comments:
   provider: "disqus"
@@ -77,3 +80,66 @@ defaults:
       show_date: true
       read_time: true
       comments: true
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+
+social:
+  type:  Person # Person or Organization (defaults to Person)
+  name:  Manuj Kushwaha # If the user or organization name differs from the site's name
+  links:
+    - "https://twitter.com/manuj_kushwaha"
+    - "https://www.linkedin.com/in/manujkushwaha/"
+    - "https://www.instagram.com/manuj12/"
+    - "https://vinnan.com/"
+
+
+twitter:
+  username: "manuj_kushwaha"
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-207910700-1"
+    anonymize_ip: false # default
+
+author:
+  name     : "Manuj Kushwaha"
+  avatar   : "/files/images/bio-photo.png"
+  bio      : "Part time writer, full time reader. Want to create content rather than just consume it. Engineer who likes to build mind castles when I am not building stuff."
+  location : "India"
+  links:
+    - label: "Tracing the ratsnest"
+      icon: "fas fa-fw fa-link"
+      url: "https://manujkushwaha.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/manuj_kushwaha"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/manuj_12"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/manuj12"
+
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/manuj_kushwaha"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/manuj12"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/manuj12"
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environment
