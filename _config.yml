@@ -30,7 +30,7 @@ url: "https://manujkushwaha.com" # the base hostname & protocol for your site, e
 #twitter_username: manuj_kushwaha
 #github_username:  manuj12
 repository: "manuj12/my-blog"
-words_per_minute         : 200
+words_per_minute         : 150
 # for getting comments locally
 environment: production
 # Build settings
@@ -112,7 +112,7 @@ social:
   links:
     - "https://twitter.com/manuj_kushwaha"
     - "https://www.linkedin.com/in/manujkushwaha/"
-    - "https://www.instagram.com/manuj12/"
+    - "https://www.instagram.com/manuj_kushwaha/"
     - "https://vinnan.com/"
 
 
@@ -137,12 +137,12 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/manuj_kushwaha"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/manuj_12"
+    - label: "Substack"
+      icon: "fab fa-fw fa-stripe-s"
+      url: "https://ratsnest.substack.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/manuj12"
+      url: "https://instagram.com/manuj_kushwaha"
 
 
 footer:
@@ -150,12 +150,12 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/manuj_kushwaha"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/manuj12"
+    - label: "Substack"
+      icon: "fab fa-fw fa-stripe-s"
+      url: "https://ratsnest.substack.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/manuj12"
+      url: "https://instagram.com/manuj_kushwaha"
 
 compress_html:
   clippings: all

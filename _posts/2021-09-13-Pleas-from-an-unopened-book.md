@@ -2,7 +2,7 @@
 layout: single
 title:  "Pleas from an unopened book"
 date:   2021-09-13 02:42:10 +0530
-categories: myposts
+categories: blogs
 
 ---
 Unknown to others, I was present in a warehouse, specifically bin P112-4A; besides a kitchen knife and a pack of skipping rope. People with carts passed by me. Picking items from nearby shelves, scanning them with their remote like devices. I still remember the beeps of those devices like it was just yesterday. I had no time for calm or respite at that place, be it day or night. It looked like there was always some emergency, someone desperately in need of a pack of gum that the people hurriedly went to pick.
