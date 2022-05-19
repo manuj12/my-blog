@@ -122,7 +122,7 @@ twitter:
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "UA-207910700-1"
+    tracking_id: "G-17NT6NKGP6"
     anonymize_ip: false # default
 
 author:
@@ -258,3 +258,6 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
+
+# site default teaser images
+teaser: /files/images/default-teaser.jpg

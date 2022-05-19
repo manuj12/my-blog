@@ -3,7 +3,8 @@ layout: single
 title:  "The waning joys of not knowing"
 date:   2021-09-16 02:42:10 +0530
 categories: blogs
-
+header:
+  teaser: /files/images/t3.png
 ---
 Many things in life are most enjoyable when they are least expected. Like a surprise birthday party or meeting someone randomly after a long time. The pleasure of having an unplanned holiday or randomly finding out about a new song from your favourite artist is underappreciated.
 
