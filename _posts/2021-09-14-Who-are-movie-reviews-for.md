@@ -4,7 +4,7 @@ title:  "Who are movie reviews for?"
 date:   2021-09-14 02:42:10 +0530
 categories: blogs
 header:
-  teaser: /files/images/t2.png
+  teaser: /files/images/t2.jpg
 ---
 ---
 I was looking forward to watching a show. The trailer seemed good; the cast was familiar and, more importantly, it was available on the streaming service for which I had a subscription. Then I made the mistake of reading a review for the same.
