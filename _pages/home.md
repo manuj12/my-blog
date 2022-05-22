@@ -3,8 +3,8 @@ title: "Tracing the ratsnest"
 permalink: /
 layout: home
 author_profile: true
-entries_layout: grid
-classes: wide
+#entries_layout: grid
+#classes: wide
 comments: false
 #excerpt: "Tracing the ratsnest"
 header:

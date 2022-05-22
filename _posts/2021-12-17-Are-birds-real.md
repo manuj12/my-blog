@@ -3,8 +3,10 @@ layout: single
 title:  "Are birds real?"
 date:   2021-12-17 02:42:10 +0530
 categories: blogs
+#tagline: " "
 header:
-  teaser: /files/images/p6i1.jpeg
+  #overlay_color: "#333"  
+  teaser: /files/images/test1.jpg
 ---
 
 Consumerism has fueled our insane appetite for materialistic things, both figuratively and literally. Food Psychologist Brian Wansink’s revolutionary book ‘Mindless Eating: Why we eat more than we think’ highlights the present culture’s way of forcing us to eat more than we normally would. His findings supported by his strong academic research bring out the correlation between plate sizes and appetite and the subtle pushes that encourage mindless eating[^1].
