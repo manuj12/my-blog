@@ -2,7 +2,7 @@
 layout: none
 permalink: /wordgame/
 ---
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -647,4 +647,5 @@ permalink: /wordgame/
     </script>
 </body>
 </html>
+
 
