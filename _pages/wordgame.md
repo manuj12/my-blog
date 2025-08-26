@@ -366,9 +366,7 @@ permalink: /wordgame/
         
         // Default word list - you can add more words through the admin panel
         let wordList = [
-            'HEART', 'SMILE', 'HAPPY', 'DREAM', 'MAGIC',
-            'SWEET', 'PEACE', 'LIGHT', 'DANCE', 'MUSIC',
-            'LAUGH', 'GRACE', 'SHINE', 'BRAVE', 'CHARM'
+            'BENNE', 'NONNA', 'YOUME'
         ];
 
         // Initialize game
@@ -649,3 +647,4 @@ permalink: /wordgame/
     </script>
 </body>
 </html>
+
