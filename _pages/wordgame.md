@@ -362,7 +362,7 @@ permalink: /wordgame/
         let guesses = [];
         
         // Admin password
-        const ADMIN_PASSWORD = 'lovebirds'; // Change this to your desired password
+        const ADMIN_PASSWORD = 'squardle'; // Change this to your desired password
         
         // Default word list - you can add more words through the admin panel
         let wordList = [
@@ -647,5 +647,6 @@ permalink: /wordgame/
     </script>
 </body>
 </html>
+
 
 
